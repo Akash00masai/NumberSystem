@@ -25,3 +25,15 @@ for(let i = 0; i< numbers.length;i++){
 
 console.log(prime_element)
 
+const maxNumber = Math.max(...prime_element);
+console.log(maxNumber)
+
+const minNumber = Math.min(...prime_element);
+console.log(minNumber)
+
+let sum = 0
+
+for(let i = 0; i< prime_element.length;i++){
+    sum = sum + prime_element[i]
+}
+console.log(sum)
